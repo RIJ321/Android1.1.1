@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android1.1.1</string>
+    <string name="tt_signing">Вход</string>
+    <string name="tt_greeting">Добро пожаловать!</string>
+    <string name="tt_task">Выполните вход или зарегистрируйтесь.</string>
+    <string name="et_email">Введите вашу почту</string>
+    <string name="btn_signing">Войти</string>
+    <string name="et_password">Введите пароль</string>
+    <string name="tt_forgot_pass">Забыл пароль?</string>
+    <string name="btn_forgot_password">Нажмите сюда.</string>
+    <string name="page1_title">The Colosseum</string>
+    <string name="tw_colosseum">One of the most recognizable sites in the world</string>
+    <string name="page1_btn_entering">Перейти</string>
+    <string name="page1_tt_value">0</string>
+    <string name="page2_task">Введите цифру</string>
+    <string name="page2_btn_change">Поменять</string>
+</resources>

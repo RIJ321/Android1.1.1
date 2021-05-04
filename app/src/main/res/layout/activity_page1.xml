@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="20dp"
+    tools:context=".Page1">
+
+    <ImageView
+        android:id="@+id/img_colosseum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@id/icn_socials"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/main_colosseum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_regular"
+        android:paddingHorizontal="16dp"
+        android:text="@string/page1_title"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/img_colosseum"
+        app:layout_constraintBottom_toTopOf="@id/tt_colosseum"
+        app:layout_constraintStart_toStartOf="@id/img_colosseum" />
+
+    <TextView
+        android:id="@+id/tt_colosseum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_regular"
+        android:paddingHorizontal="16dp"
+        android:text="@string/tw_colosseum"
+        android:textColor="@color/gray"
+        android:paddingBottom="16dp"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/img_colosseum"
+        app:layout_constraintStart_toStartOf="@id/img_colosseum"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/icn_socials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_bg"
+        android:padding="34dp"
+        android:src="@drawable/socials"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_bg"
+        android:padding="34dp"
+        android:src="@drawable/cameera"
+        app:layout_constraintEnd_toStartOf="@id/icn_socials"
+        app:layout_constraintTop_toTopOf="@id/icn_socials"
+
+        />
+
+    <ImageView
+        android:id="@+id/icn_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_bg"
+        android:padding="34dp"
+        android:src="@drawable/google_icon"
+        app:layout_constraintStart_toEndOf="@id/icn_socials"
+        app:layout_constraintTop_toTopOf="@id/icn_socials"
+
+        />
+    
+    <Button
+        android:id="@+id/btn_entering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/page1_btn_entering"
+        android:background="@color/btn_enter"
+        android:textColor="@color/white"
+        android:paddingVertical="14dp"
+        android:paddingHorizontal="65dp"
+        android:textAllCaps="false"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_entering"
+        app:layout_constraintTop_toBottomOf="@id/icn_socials"
+        android:textSize="48sp"
+        android:textColor="@color/black"
+        android:text="@string/page1_tt_value"
+
+
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

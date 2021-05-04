@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="24dp"
+    android:paddingVertical="50dp"
+    tools:context=".Page2">
+
+
+    <EditText
+        android:id="@+id/page2_et_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/value_gray"
+        android:hint="@string/page2_task"
+        android:paddingHorizontal="13dp"
+        android:paddingVertical="16dp"
+        android:textColorHint="@color/btn_enter"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:background="@color/btn_enter"
+        android:paddingHorizontal="65dp"
+        android:paddingVertical="16dp"
+        android:textSize="16sp"
+        android:text="@string/page2_btn_change"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/page2_et_task"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
